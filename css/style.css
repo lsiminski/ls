@@ -7,7 +7,7 @@
 /* ! — — — — — PARALLAX — — — — — ! */
 
 .section-block.featured-media.tm-slider-parallax-container.background-cover {
-	background: #ffffff;
+	background: #eeeeee;
 	height: 580px;
 }
 
@@ -107,19 +107,22 @@
 	margin-right: 15px;
 }
 
+/*
 .section-block.featured-media {
-	background: #ffffff!important;
+	background: #f8caca!important;
 }
 
 .section-block.grid-filter-menu {
-	background: #efefef!important;
+	background: #eeeeee!important;
 }
 
 .section-block.grid-container {
-	background: #efefef!important;
+	background: #eeeeee!important;
 }
+*/
 
 .project-title {
 	font-family: "brandon-grotesque", sans-serif!important;
-	padding-bottom: 25px!important;
+	font-size: 20px!important;
+	padding-bottom: 16px!important;
 }
