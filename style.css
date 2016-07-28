@@ -26,36 +26,15 @@
 
 /* ! — — — — — HEADERS — — — — — ! */
 
-.logo-inner a:nth-of-type(1) {
-	background: transparent!important;
-	width: 200px!important;
-	color: blue!important;
-	font-family: "brandon-grotesque";
-	font-size: 18px;
+.row.nav-bar a {
+	width: 400px!important;
+	background: yellow!important;
+	z-index: 999999!important;
 }
 
-.logo-inner a:hover {
-	background: transparent!important;
-	color: transparent!important;
+.icon-menu {
+	color: #565656!important;
 }
-
-.logo {
-	width: 200px!important;
-	z-index: 99999!important;
-}
-
-.logo-inner a:nth-of-type(2) {
-	background: blue;
-}
-
-.logo.no-transition {
-	display: none!important; 
-}
-
-.logo.transition {
-	display: none!important; 
-}
-
 
 /* ! — — — — — SIDEBAR NAV — — — — — ! */
 
