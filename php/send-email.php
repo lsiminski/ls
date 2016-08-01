@@ -1,8 +1,8 @@
 <?php
 	// Your Email
-	$recipient = ""; // PLEASE SET THE EMAIL ADDRESS of recipient
-	$recipient_name = ""; // PLEASE SET THE NAME OF the email address holder
-	$subject_title = "A new email from your website"; //
+	$recipient = "lsiminski@mica.edu"; // PLEASE SET THE EMAIL ADDRESS of recipient
+	$recipient_name = "Lauren Siminski"; // PLEASE SET THE NAME OF the email address holder
+	$subject_title = "EMAIL FROM LAURENSIMINSKI.COM"; //
 
 	// Check $recipient
 	if($recipient === '') {

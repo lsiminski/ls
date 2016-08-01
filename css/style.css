@@ -26,10 +26,10 @@
 
 /* ! — — — — — HEADERS — — — — — ! */
 
-.logo-inner a:nth-of-type(1) {
+.logo-inner a {
 	background: transparent!important;
 	width: 200px!important;
-	color: #565656!important;
+	color: #1e1e1e!important;
 	font-family: "brandon-grotesque", helvetica, sans-serif;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -52,12 +52,18 @@
 	background: blue;
 }
 
+/*
 .logo.no-transition {
 	display: none!important; 
 }
 
 .logo.transition {
 	display: none!important; 
+}
+*/
+
+.icon-menu {
+	color: #1e1e1e!important;
 }
 
 
