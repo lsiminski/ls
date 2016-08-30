@@ -25,6 +25,12 @@
 
 /* ! — — — — — HEADERS — — — — — ! */
 
+/*
+.logo-inner {
+	display: none!important;
+}
+*/
+
 .logo-inner a {
 	background: transparent!important;
 	width: 200px!important;
