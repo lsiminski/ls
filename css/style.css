@@ -53,8 +53,15 @@
 	z-index: 99999!important;
 }
 
+/*
 .logo-inner a:nth-of-type(2) {
 	background: blue;
+}
+*/
+
+.logo-inner .first-logo {
+	color: transparent!important;
+	font-weight: 900!important;
 }
 
 /*
