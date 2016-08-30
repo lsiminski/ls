@@ -34,7 +34,6 @@
 .logo-inner a {
 	background: transparent!important;
 	width: 200px!important;
-	color: #1e1e1e!important;
 	font-family: "brandon-grotesque", helvetica, sans-serif;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -62,6 +61,10 @@
 .logo-inner .first-logo {
 	color: transparent!important;
 	font-weight: 900!important;
+}
+
+.logo-inner .second-logo {
+	color: #222222!important;
 }
 
 /*
