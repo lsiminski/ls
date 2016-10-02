@@ -8,7 +8,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="Your-Image-Url" />
 	<meta property="og:description" content="Your-Page-Description" />
-	<title>Kant | Multipurpose HTML5 Template - Contact Style Two</title>
+	<title>Kant | Multipurpose HTML5 Template - About Style One</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
 	<!-- Font -->
@@ -76,7 +76,7 @@
 						<li>
 							<a href="#" class="contains-sub-menu">Pages</a>
 							<ul class="sub-menu">
-								<li>
+								<li class="current">
 									<a href="about-style-one.html">About Original</a>
 								</li>
 								<li>
@@ -97,7 +97,7 @@
 								<li>
 									<a href="contact-style-one.html">Contact Original</a>
 								</li>
-								<li class="current">
+								<li>
 									<a href="contact-style-two.html">Contact Style 2</a>
 								</li>
 								<li>
@@ -163,6 +163,9 @@
 								</li>
 								<li>
 									<a href="single-product-with-gallery.html">Product With Gallery</a>
+								</li>
+								<li>
+									<a href="single-product-with-header.html">Product With Header</a>
 								</li>
 								<li>
 									<a href="single-product-with-parallax.html">Product With Parallax</a>
@@ -345,7 +348,7 @@
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header with-shadow header-fixed-on-mobile nav-dark" data-helper-in-threshold="300" data-helper-out-threshold="500"  data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
+			<header class="header with-shadow header-absolute header-fixed-on-mobile header-transparent" data-helper-in-threshold="300" data-helper-out-threshold="500"  data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
 				<div class="header-inner">
 					<div class="row nav-bar">
 						<div class="column width-12 nav-bar-inner">
@@ -427,139 +430,200 @@
 			<!-- Content -->
 			<div class="content clearfix">
 
-				<!-- Map Section -->
-				<div class="section-block no-padding">
-					<div class="row collapse full-width">
-						<div class="column width-12 center">
-							<div class="map-container" data-coordinates="[[40.723301,-74.002988]]" data-icon='"images/assets/map-marker.png"' data-info='"Downtown New York Office<br>44 St. West 32"' data-zoom-level="13" data-style="color">
-								<div class="map-canvas" id="map-canvas-1"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Map Section End -->
-
-				<!-- Boxed Feature Columns -->
-				<div class="section-block replicable-content bkg-grey-ultralight">
-					<div class="row flex boxes">
-						<div class="column width-4">
-							<div class="feature-column box rounded large bkg-white center">
-								<span class="feature-icon icon-location"></span>
-								<div class="feature-text">
-									<h3 class="mb-5">Pop On By</h3>
-									<h6 class="mb-30 weight-light color-grey">Mon-Fri 9:00 am -10:00 pm</h6>
-									<div class="map-pan-link-container">
-										<a href="#" class="active map-pan-link scroll-to-top" data-no-hide data-target-map="map-canvas-1" data-coordinates="[[40.723301,-74.002988]]">New York Office</a><br>
-										<a href="#" class="map-pan-link scroll-to-top" data-no-hide data-target-map="map-canvas-1" data-coordinates="[[37.774929, -122.419416]]" data-icon='"images/assets/map-marker-2.png"' data-info='"Downtown San Fransisco Office"'>San Francisco Office</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="column width-4">
-							<div class="feature-column box rounded large bkg-white center">
-								<span class="feature-icon icon-phone"></span>
-								<div class="feature-text">
-									<h3 class="mb-5">Give Us A Call</h3>
-									<h6 class="mb-30 weight-light color-grey">+1 987 874 32 / Ext. 4</h6>
-									<p class="mb-0 mb-mobile-50">Get in touch with us and let's chat about your next project and how to reach its full potential.</p>
-								</div>
-							</div>
-						</div>
-						<div class="column width-4">
-							<div class="feature-column box rounded large bkg-white center">
-								<span class="feature-icon icon-twitter"></span>
-								<div class="feature-text">
-									<h3 class="mb-5">Chat With Us</h3>
-									<h6 class="mb-30 weight-light color-grey">@thememountainco</h6>
-									<p class="mb-0 mb-mobile-50">Just want to have a chant, hit us up on Twitter with any questions or comments.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Boxed Feature Columns End -->
-
-				<!-- Contact Form -->
-				<section class="section-block replicable-content contact-2">
-					<div class="row">
-						<div class="column width-4">
-							<h2 class="mb-30">Say Hello</h2>
-							<div class="row">
-								<div class="column width-10">
-									<p>Easily add additional fields, select boxes or checkboxes to the contact form without knowing any JS or PHP.</p>
-									<h5 class="mb-30 color-grey">Socialize With Us</h5>
-									<ul class="social-list list-horizontal">
-										<li><a href="#"><span class="icon-twitter-with-circle medium"></span></a></li>
-										<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
-										<li><a href="#"><span class="icon-instagram-with-circle medium"></span></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="column width-8 left">
-							<div class="contact-form-container pu-10">
-								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
-									<div class="row">
-										<div class="column width-6">
-											<input type="text" name="fname" class="form-fname form-element rounded large" placeholder="First Name*" tabindex="1" required>
-										</div>
-										<div class="column width-6">
-											<input type="text" name="lname" class="form-lname form-element rounded large" placeholder="Last Name" tabindex="2">
-										</div>
-										<div class="column width-6">
-											<input type="email" name="email" class="form-email form-element rounded large" placeholder="Email address*" tabindex="3" required>
-										</div>
-										<div class="column width-6">
-											<input type="text" name="website" class="form-website form-element rounded large" placeholder="Website" tabindex="4">
-										</div>
-										<div class="column width-6">
-											<div class="form-select form-element rounded large">
-												<select name="options" class="form-aux" data-label="Options" tabindex="5">
-													<option selected="selected" value="">Project Budget</option>
-													<option value="">Less than $1000</option>
-													<option value="">$1000 - $2000</option>
-													<option value="">$2000 - $5000</option>
-													<option value="">$5000 - $7000</option>
-													<option value="">$10000 &amp; up</option>
-												</select>
+				<!-- Full Width Slider Section -->
+				<section class="section-block featured-media tm-slider-parallax-container">
+					<div class="tm-slider-container full-width-slider" data-parallax data-parallax-fade-out data-animation="slide" data-scale-under="1140">
+						<ul class="tms-slides">
+							<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.3">
+								<div class="tms-content">
+									<div class="tms-content-inner center">
+										<div class="row">
+											<div class="column width-12">
+												<h1 class="tms-caption title-xlarge color-white mb-10"
+													data-animate-in="preset:scaleOut;duration:1000ms;"
+													data-no-scale
+												>
+													About K.
+												</h1>
 											</div>
 										</div>
-										<div class="column width-6">
-											<div class="form-select form-element rounded large">
-												<select name="options" class="form-aux" data-label="Options" tabindex="5">
-													<option selected="selected" value="">How'd You Find Kant</option>
-													<option value="">From a friend</option>
-													<option value="">Found Kant online</option>
-													<option value="">Previous client</option>
-													<option value="">Through advertising</option>
-												</select>
-											</div>
-										</div>
-										<div class="column width-6">
-											<input type="text" name="honeypot" class="form-honeypot form-element large">
-										</div>
 									</div>
-									<div class="row">
-										<div class="column width-12">
-											<textarea name="message" class="form-message form-element rounded large" placeholder="Message*" tabindex="6" required></textarea>
-										</div>
-										<div class="column width-12">
-											<div class="field-wrapper pt-10 pb-10">
-											 	<input id="checkbox-1" class="form-element checkbox rounded" name="checkbox-1" type="checkbox">
-												<label for="checkbox-1" class="checkbox-label">Yup, I want to receive the Kant newsletter</label>
-											</div>
-										</div>
-										<div class="column width-12">
-											<input type="submit" value="Send Email" class="form-submit button rounded medium bkg-theme bkg-hover-green color-white color-hover-white">
-										</div>
-									</div>
-								</form>
-								<div class="form-response center"></div>
-							</div>
-						</div>
+								</div>
+								<img data-src="images/slider/slide-1-page-intro.jpg" data-retina src="images/blank.png" alt=""/>
+							</li>
+						</ul>
 					</div>
 				</section>
-				<!--Contact Form End -->
+				<!-- Full Width Slider Section -->
+
+				<!-- About Section -->
+				<div class="section-block replicable-content">
+					<div class="row">
+						<div class="column width-12 left-on-mobile">
+							<div class="pu-10">
+								<p class="lead text-large color-theme mb-50">We've built more than 1000+ sites, designed more than 500 identities and we've won a ton of awards. You dream it, we build it!</p>
+								<a href="#" class="button medium rounded bkg-theme bkg-hover-green color-white color-hover-white text-uppercase mb-mobile-30">Work With Kant Today</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- About Section End -->
+
+				<!-- Team Grid -->
+				<div class="section-block team-2 bkg-grey-ultralight">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row content-grid-3">
+								<div class="grid-item">
+									<div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<img src="images/team/team-member-1-2.jpg" width="760" height="760" alt=""/>
+									</div>
+									<div class="team-content-info mb-mobile-50">
+										<h4 class="mb-10">Jason Andrews</h4>
+										<h6 class="occupation">Designer, Illustrator</h6>
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+										<ul class="social-list list-horizontal">
+											<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-twitter-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-github-with-circle medium"></span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="grid-item">
+									<div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<img src="images/team/team-member-2-2.jpg" width="760" height="760" alt=""/>
+									</div>
+									<div class="team-content-info mb-mobile-50">
+										<h4 class="mb-10">Emma Casey</h4>
+										<h6 class="occupation">Project Manager</h6>
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+										<ul class="social-list list-horizontal">
+											<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-linkedin-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-px-with-circle medium"></span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="grid-item">
+									<div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<img src="images/team/team-member-3-2.jpg" width="760" height="760" alt=""/>
+									</div>
+									<div class="team-content-info mb-mobile-50">
+										<h4 class="mb-10">Emma Casey</h4>
+										<h6 class="occupation">Lead Developer</h6>
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+										<ul class="social-list list-horizontal">
+											<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-vimeo-with-circle medium"></span></a></li>
+											<li><a href="#"><span class="icon-vine-with-circle medium"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Team Grid End -->
+
+				<!-- Category Grid -->
+				<div class="section-block grid-container fade-in-progressively full-width no-margins no-padding-top" data-animate-resize data-animate-resize-duration="700">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row grid content-grid-2">
+								<div class="grid-item grid-sizer">
+									<div class="thumbnail overlay-fade-img-scale-out" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<a class="overlay-link" href="portfolio-two-columns.html">
+											<img src="images/team/grid/no-margins/category-1-landscape.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														Prevous Work
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item">
+									<div class="thumbnail overlay-fade-img-scale-out" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<a class="overlay-link" href="portfolio-two-columns.html">
+											<img src="images/team/grid/no-margins/category-2-landscape.jpg" alt=""/>
+											<span class="overlay-info v-align-middle">
+												<span>
+													<span>
+														Case Studies
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Category Grid End -->
+
+				<!-- Logo 4 Section -->
+				<div class="section-block logos-4 bkg-white">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row content-grid-5">
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;">
+										<img src="images/logos/app-love-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:200ms;">
+										<img src="images/logos/air-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:250ms;">
+										<img src="images/logos/techmag-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:300ms;">
+										<img src="images/logos/harvest-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:400ms;">
+										<img src="images/logos/nyt-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:200ms;">
+										<img src="images/logos/rosco-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:100ms;">
+										<img src="images/logos/smashing-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:350ms;">
+										<img src="images/logos/repetition-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:200ms;">
+										<img src="images/logos/macaw-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+								<div class="grid-item">
+									<a href="#" class="horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:100ms;">
+										<img src="images/logos/adventure-logo-grid.svg" alt=""/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Logo 4 Section End -->
 
 			</div>
 			<!-- Content End -->
