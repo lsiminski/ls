@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 
 </head>
-<body class="five-oh-oh">
+<body class="home">
 
 	<!-- Side Navigation Menu -->
 		<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="scale-in">
@@ -85,7 +85,7 @@
 						<!-- </div> -->
 					</div>
 				</div>
-				<div class="name-logo"><a href="index.html">Lauren Siminski</a></div>
+				
 			</header>
 			<!-- Header End -->
 
@@ -98,12 +98,21 @@
 						<div class="fullscreen-inner no-overlay">
 							<div class="row center">
 <!--
-									<h1 class="status-code-title mb-20 horizon" data-animate-in="preset:scaleIn;duration:1000ms;delay:100ms;">500</h1>
-									<h2 class="title-large color-grey mb-30">Internal Server Error</h2>
+									<h1 class="status-code-title mb-20 horizon" data-animate-in="preset:scaleIn;duration:1000ms;delay:100ms;">404</h1>
+									<h2 class="title-large color-grey mb-30">Page Not Found</h2>
 									<p class="color-grey">Sorry, the page you are looking for cannot be found.<br>Try checking the URL or return back home.</p>
-									<a href="index.html" class="button medium rounded bkg-theme bkg-hover-green color-white color-hover-white text-uppercase fade-location">Return Home</a>	
+									<a href="index.html" class="button medium rounded bkg-theme bkg-hover-green color-white color-hover-white text-uppercase fade-location">Return Home</a>
 -->
-									<img src="images/filler.png">
+<!-- 									<div id="container1" class="container1"> -->
+									<ul id="scene" class="scene">
+										<li class="layer" data-depth="0.35"><img src="images/chemex-wood.png"></li>
+										<li class="layer" data-depth="0.75"><img src="images/coins-trophy-necklace.png"></li>
+										<li class="layer" data-depth="1.00"><img src="images/eraser-glasses.png"></li>
+										<li class="layer" data-depth="0.10"><img src="images/camera-arm.png"></li>
+										<li class="layer" data-depth="0.45"><img src="images/sketchbook-pencil.png"></li>
+										
+									</ul>
+<!-- 							</div> -->
 							</div>
 						</div>
 					</div>
@@ -113,24 +122,6 @@
 			</div>
 			<!-- Content End -->
 
-			<!-- Footer -->
-			<footer class="footer footer-light center">
-								<ul class="social-list list-horizontal left">
-									<li><a href="https://www.behance.net/laurensiminski" target="_blank"><span class="icon-behance small"></span></a></li>
-									<li><a href="https://twitter.com/laurensiminski" target="_blank"><span class="icon-twitter small"></span></a></li>
-									<li><a href="https://www.instagram.com/siminski/" target="_blank"><span class="icon-instagram small"></span></a></li>
-									<li><a href="https://www.linkedin.com/in/laurensiminski" target="_blank"><span class="icon-linkedin small"></span></a></li>
-								</ul>
-								<div class="copyright">
-									&copy; 2016 – Lauren Siminski
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- Footer End -->
-
 		</div>
 	</div>
 
@@ -138,5 +129,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="scripts/jquery.js"></script>
+		<script src="deploy/jquery.parallax.js"></script>
+		<script>
+
+			$('#scene').parallax();
+
+		</script>
 </body>
 </html>
